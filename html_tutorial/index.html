@@ -1,0 +1,242 @@
+<!doctype html>
+<html>
+  <head>
+    <title>Primera pagina</title>
+  <head/>
+  <body>
+    <!-- Headings-->
+    <h1>h1 titulo 1</h1>
+    <h2>h2 titulo 2</h2>
+    <h3>h3 titulo 3</h3>
+    <h4>h4 titulo 4</h4>
+    <h5>h5 titulo 5</h5>
+    <h6>h6 titulo 6</h6>
+
+    <!-- saltos de linea -->
+    <hr/> 
+    <p> esto es <br/> un parrafo</p>
+    <hr/>
+    <p> esto es <br/> un segundo parrafo</p>
+    <!-- ojo el la etiqueta br se utiliza solo cuando es estrictamente necesario-->
+    <!-- Formas de texto -->
+    <blockquote>blockquote: Esto es una cita</blockquote>
+    <br/>
+    <code>code: printf("esto es codigo");</code>
+    <br/>
+    <strong>strong: Esto es un texto en negrita </strong>
+    <br/>
+    <b>b: Esto es un texto en negrita</b>
+    <br/>
+    <em>em: Esto es un texto con enfasis</em>
+    <br/>
+    <i>i: Esto es un texto en italica</i>
+    <br/>
+    <pre>pre: Esto es un texto con preformato</pre>
+    <br/>
+    <s>s: texto tachado</s>
+    <br/>
+    <del>del: texto tachado</del>
+    <br/>
+    <u>u: texto subrayado</u>
+    <br/>
+    <ins>ins: texto subrayado</ins>
+    <br/>
+    <small>small: texto pequeño</small>
+    <br/>
+    <mark>mark: es un texto resaltado </mark>
+    <br/>
+    <p>sup: texto<sup>superior</sup></p>
+    <p>sub: texto<sub>inferior</sub></p>
+    <!-- secciones de codigo -->
+    <div>
+	    <p>div: division 1 </p>
+	    <p>div: division 1 parrafo parrafo 22</p>
+    </div>
+    <div>div: division 2</div>
+    <div>div: division 3</div>
+    <hr/>
+
+    <!-- formularios -->
+    <form>
+	<fieldset>
+		<legend>Fieldset legend </legend>
+		<label>button</label>
+		<input type="button" value="boton">
+		<br/>
+		<label>checkbox</label>
+		<input type="checkbox" checked="true">	 
+		<br/>
+		<label>radio</label>
+		<input type="radio" checked="true">
+		<br/>
+		<label>range</label>
+		<input type="range" step="2" value="6" min="0" max="10">
+		<br/>
+		<label>reset</label>
+		<input type="reset" value="reset">
+		<br/>
+		<label>submit</label>
+		<input type="submit" value="enviar">
+		<br/>
+		<label>color</label>
+		<input type="color" value="#00fe00">
+		<br/>
+		<label>date</label>
+		<input type="date" value="10/10/10">
+		<br/>
+		<label>datetime-local</label>
+		<input type="datetime-local" placeholder="fecha local">
+		<br/>
+		<label>email</label>
+		<input type="email" placeholder="example@gmail.com">
+		<br/>
+		<label>file</label>
+		<input type="file">
+		<br/>
+		<label>hidden</label>
+		<input type="hidden">
+		<br/>
+		<label>image</label>
+		<input type="image" value="imagen">
+		<br/>
+		<label>month</label>
+		<input type="month" value="mes">
+		<br/>
+		<label>number</label>
+		<input type="number" value="3">
+		<br/>
+		<label>password</label>
+		<input type="password" placeholder="ingrese su contraseña">
+		<br/>
+		<br/>
+		<label>search</label>
+		<input type="search" placeholder="google.com">
+		<br/>
+		<label>tel</label>
+		<input type="tel" placeholder="+58 424-7101488">
+		<br/>
+		<label>text</label>
+		<input type="text" placeholder="Ingrese un texto">
+		<br/>
+		<label>time</label>
+		<input type="time">
+		<br/>
+		<label>url</label>
+		<input type="url" placeholder="ingrese su url">
+		<br/>
+		<label>week</label>
+		<input type="week" placeholder="week">
+		<br/>
+		<label>textarea</label>
+		<textarea>Para agregar un campo de texto mas grande </textarea>
+		<br/>
+
+		<!-- Lista desplegable -->
+		<label>select</label>
+		<select>
+			<optgroup label="primer grupo" >
+				<option value="op1"> opcion 1 </option>
+			</optgroup>
+			<optgroup label="segundo grupo" >
+				<option value="op2"> opcion 2 </option>
+			</optgroup>
+			<optgroup label="tercer grupo" >
+				<option value="op3"> opcion 3 </option>
+			</optgroup>
+		</select>
+	</fieldset>
+    </form>
+    
+    <hr/>
+    <fieldset>
+	    <legend>Atributos de input</legend>
+    <p>
+	    Attribute 	Description
+	    <br/>
+	    checked 	Specifies that an input field should be pre-selected when the page loads (for type="checkbox" or type="radio")
+	    <br/>
+	    disabled 	Specifies that an input field should be disabled
+	    <br/>
+	    max 	Specifies the maximum value for an input field
+	    <br/>
+	    maxlength 	Specifies the maximum number of character for an input field
+	    <br/>
+	    min 	Specifies the minimum value for an input field
+	    <br/>
+	    pattern 	Specifies a regular expression to check the input value against
+	    <br/>
+	    readonly 	Specifies that an input field is read only (cannot be changed)
+	    <br/>
+	    required 	Specifies that an input field is required (must be filled out)
+	    <br/>
+	    size 	Specifies the width (in characters) of an input field
+	    <br/>
+	    step 	Specifies the legal number intervals for an input field
+	    <br/>
+	    value 	Specifies the default value for an input field
+    </p>
+    </fieldset>
+    <hr/>
+
+    <!-- imagenes -->
+	    <img src="https://placekitten.com/200/300" alt="un gato aleatorio" width="200" height="300"/>
+	    <!-- siempre agregar el alt, width y height-->
+    <hr/>
+    
+    <!-- lista -->
+    <fieldset>
+	    <legend>ordered list </legend>
+	    <ol start="30">
+		    <li>arroz</li>
+		    <li>quinoa</li>
+		    <li>trigo</li>
+		    <li>lenteja</li>
+	    </ol>
+    </fieldset>
+
+    <fieldset>
+	    <legend>unordered list</legend>
+	    <ul>
+		    <li>arroz</li>
+		    <li>quinoa</li>
+		    <li>trigo</li>
+		    <li>lenteja</li>
+	    </ul>
+    </fieldset>
+
+    <!-- tablas -->
+    <table>
+	    <thead>
+		    <tr>
+			    <!-- Cabeceras de  las columnas-->
+			    <th>col1</th>
+			    <th>col2</th>
+			    <th>col3</th>
+		    </tr>
+	    </thead>
+	    <tbody>
+		    <tr>
+			    <!-- Cabeceras de  las columnas-->
+			    <td>col1 val1</td>
+			    <td>col2 val1</td>
+			    <td>col3 val1</td>
+		    </tr>
+		    <tr>
+			    <!-- Cabeceras de  las columnas-->
+			    <td>col1 val2</td>
+			    <td>col2 val2</td>
+			    <td>col3 val2</td>
+		    </tr>
+
+	    </tbody>
+	    <tfoot>
+		    <tr>
+			    <!-- Cabeceras de  las columnas-->
+			    <td>results 1</td>
+			    <td>results 2</td>
+			    <td>results 3</td>
+		    </tr>
+	    </tfoot>
+    </table>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+/* Etiquetas*/
+body{
+  background-color : #efefef;
+}
+
+span{
+  color: #00FF00;
+}
+
+/* Selector de ID #*/
+#parrafo{
+  color: #0F00F0;
+}
+/* Selector de clases .*/
+.otro_span{
+  color: red;
+}
+
+div#box1{
+  background-color: lightblue;
+}
+
+p#boxmodel{
+  color: black;
+  margin: 8px 8px 8px 8px;
+  padding: 8px 8px 8px 8px;
+  border-style: solid;
+  border-color: black; 
+  width: 100px;
+  height: 100px;
+}
+
+
+#dotted{ border-style: dotted;}
+#dashed{ border-style: dashed;}
+#solid{ border-style: solid;}
+#double{ border-style: double;}
+#groove{ border-style: groove;}
+#ridge{ border-style: ridge;}
+#inset{ border-style: inset;}
+#outset{ border-style: outset;}

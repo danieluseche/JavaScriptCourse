@@ -1,0 +1,40 @@
+body {
+  background-color: #a2a2a2;
+  margin: 5px;
+}
+
+section{
+  background-color: #FFF;
+  border-style: solid;
+  border-color: #a0a0a0;
+  border-width: 2px; 
+}
+
+header{
+  padding: 15px;
+  border-bottom: 1px solid #a2a2a2;
+}
+
+main{
+  padding: 15px;
+}
+
+footer{
+  padding: 15px;
+  border-top: 1px solid #a2a2a2;
+}
+
+button{
+ margin: 0;
+ padding: 5px;
+ border-style: none;
+ color: #FFF;
+}
+#aceptarBtn{
+ background-color: #0384f8;
+}
+
+#cancelarBtn{
+ color: #FFF;
+ background-color: #a2a2a2;
+}
